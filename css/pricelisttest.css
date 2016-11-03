@@ -40,12 +40,12 @@
   position: absolute;
   top: 40%;
   left: 10%;
-  right: 10%;
   margin: -190px 0 0 -468px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #9f9f9f;
   font-size: 0.85em;
+  transform: translate(-50%, -50%);
 }
 .package {
   box-sizing: border-box;
