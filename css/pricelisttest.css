@@ -57,9 +57,9 @@
   text-align: center;
   -webkit-transition: margin-top 0.5s linear;
   transition: margin-top 0.5s linear;
-  position: fixed;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
 }
 .package:hover {
   margin-top: -30px;
