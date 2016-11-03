@@ -58,6 +58,7 @@
   text-align: center;
   -webkit-transition: margin-top 0.5s linear;
   transition: margin-top 0.5s linear;
+  position: relative;
 }
 .packagesmall {
   box-sizing: border-box;
