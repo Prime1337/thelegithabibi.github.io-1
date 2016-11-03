@@ -48,8 +48,8 @@
 }
 .package {
   box-sizing: border-box;
-  width: 17.5em;
-  height: 27.2em;
+  width: 315px;
+  height: 490px;
   border: 3px solid #e8e8e8;
   border-radius: 7px;
   display: block;
