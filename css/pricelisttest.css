@@ -59,6 +59,7 @@
   transition: margin-top 0.5s linear;
   position: relative;
   float: left;
+  right:25%;
   margin: 25px;
 }
 .package:hover {
