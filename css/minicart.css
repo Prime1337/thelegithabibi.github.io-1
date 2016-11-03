@@ -34,6 +34,7 @@
     position: fixed;
     left: 50%;
     top: 75px;
+    z-index: 1;
 }
 
 #PPMiniCart form {
