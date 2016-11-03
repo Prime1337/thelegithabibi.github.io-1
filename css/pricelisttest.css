@@ -59,6 +59,7 @@
   transition: margin-top 0.5s linear;
   position: relative;
   float: left;
+  left: 25%;
 }
 .packagesmall {
   box-sizing: border-box;
