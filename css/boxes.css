@@ -249,3 +249,8 @@ table.center {
  margin-right: auto;
  }
 
+.peopleCarouselImg p {
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
