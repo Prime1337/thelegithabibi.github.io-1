@@ -58,10 +58,8 @@
   -webkit-transition: margin-top 0.5s linear;
   transition: margin-top 0.5s linear;
   position: relative;
-  left: 25%;
   float: left;
   margin: 25px;
-  text-align: center;
 }
 .package:hover {
   margin-top: -30px;
