@@ -59,6 +59,21 @@
   transition: margin-top 0.5s linear;
   position: relative;
   float: left;
+  left: 50%;
+}
+.packagesmall {
+  box-sizing: border-box;
+  width: 315px;
+  height: 250px;
+  border: 3px solid #e8e8e8;
+  border-radius: 7px;
+  display: inline-block;
+  padding: 24px;
+  text-align: center;
+  -webkit-transition: margin-top 0.5s linear;
+  transition: margin-top 0.5s linear;
+  position: relative;
+  float: left;
   right: 65%; 
 }
 .package:hover {
