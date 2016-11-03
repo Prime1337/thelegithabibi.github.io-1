@@ -184,7 +184,7 @@ div.package li::before {
 }
 .obrazok {
       position: absolute;
-      bottom: 0;
+      bottom: 2%;
       display: block;
       margin-left: 35px;
 
