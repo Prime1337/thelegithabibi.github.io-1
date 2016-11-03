@@ -79,7 +79,7 @@
   font-weight: bold;
 }
 .price::after {
-  content: "/ FOR ALL THE FOLLOWING";
+  content: "/ INCLUDES EVERYTHING";
   font-weight: normal;
 }
 div.package hr {
