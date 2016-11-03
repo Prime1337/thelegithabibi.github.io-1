@@ -37,7 +37,7 @@
 
 
 .wrapper {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 10%;
   margin: -190px 0 0 -468px;
