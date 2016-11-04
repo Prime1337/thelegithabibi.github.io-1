@@ -27,6 +27,7 @@
 <link rel="stylesheet" href="css/pricelist.css">
 	<link href="css/minicart.css" rel="stylesheet">
 	<link href="css/about.css" rel="stylesheet">
+	<link href="css/reviews.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="web/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -138,7 +139,7 @@
 	    <form method="post" action="https://www.paypal.com/cgi-bin/webscr">
 		   <input type="hidden" name="cmd" value="_cart">
 <input type="hidden" name="business" value="thelegithabibi@gmail.com">
-<input type="hidden" name="item_name" value="BronzePackage">
+<input type="hidden" name="item_name" value="Bronze">
 <input type="hidden" name="item_number" value="1">
 <input type="hidden" name="amount" value="1.99">
 <input type="hidden" name="shipping" value="0.00">
@@ -178,8 +179,8 @@
 	    <form method="post" action="https://www.paypal.com/cgi-bin/webscr">
 		   <input type="hidden" name="cmd" value="_cart">
 <input type="hidden" name="business" value="thelegithabibi@gmail.com">
-<input type="hidden" name="item_name" value="SilverPackage">
-<input type="hidden" name="item_number" value="2">
+<input type="hidden" name="item_name" value="Silver">
+<input type="hidden" name="item_number" value="1">
 <input type="hidden" name="amount" value="5.99">
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="shipping2" value="0.00">
@@ -226,8 +227,8 @@
     	<form method="post" action="https://www.paypal.com/cgi-bin/webscr">
 		   <input type="hidden" name="cmd" value="_cart">
 <input type="hidden" name="business" value="thelegithabibi@gmail.com">
-<input type="hidden" name="item_name" value="GoldPackage">
-<input type="hidden" name="item_number" value="3">
+<input type="hidden" name="item_name" value="Gold">
+<input type="hidden" name="item_number" value="1">
 <input type="hidden" name="amount" value="9.99">
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="shipping2" value="0.00">
@@ -268,8 +269,8 @@
     		<form method="post" action="https://www.paypal.com/cgi-bin/webscr">
 		   <input type="hidden" name="cmd" value="_cart">
 <input type="hidden" name="business" value="thelegithabibi@gmail.com">
-<input type="hidden" name="item_name" value="PlatinumPackage">
-<input type="hidden" name="item_number" value="4">
+<input type="hidden" name="item_name" value="Platinum">
+<input type="hidden" name="item_number" value="1">
 <input type="hidden" name="amount" value="19.99">
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="shipping2" value="0.00">
@@ -331,7 +332,7 @@
                 <div class="col-lg-12 text-center">
                     <h2>REVIEWS</h2>
                     <hr class="star-primary">
-                </div>
+			</div>
 		    <div class="container" id="testimonials-row">
 <div class="row">
 <div class="col-md-12 column">
@@ -447,10 +448,10 @@ Amazing, Habibi has outstanding English abilities and your application for any u
 </div>
 </div>
 </div><!--end of container-->
-
-		 <center><a class="btn btn-primary btn-wide portfolio-link" href="#portfolioModal1" data-toggle="modal">Submit A Review</a></center>
+ <center><a class="btn btn-primary btn-wide portfolio-link" href="#portfolioModal1" data-toggle="modal">Submit A Review</a></center>
 		 </div>
 	    </div></section>
+                
 
 
 
@@ -600,7 +601,8 @@ Amazing, Habibi has outstanding English abilities and your application for any u
                         </div>
 			    <div class="row control-group">
 				    <input type="hidden" name="_next" value="http://thelegithabibi.com/reviewthanks.html"/>
-                            <input type="text" class="form-control" placeholder="Stars (1-5)" name="Stars" required>
+				    <input id="ratings-hidden" name="rating" type="hidden"> 
+                            <div class="starsreview starrr" data-rating="0"></div>
                                 <p class="help-block text-danger"></p>
 
                         </div>
@@ -851,6 +853,7 @@ Amazing, Habibi has outstanding English abilities and your application for any u
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
 	<script src="js/body.min.js"></script>
+	    <script src="js/reviewbox.js"></script>
 
     <!-- Disqus -->
     <script id="dsq-count-scr" src="//thelegithabibi.disqus.com/count.js" async></script>
