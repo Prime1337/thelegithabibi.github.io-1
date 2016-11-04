@@ -137,11 +137,5 @@
 }
 div.pulse {
   background: #46C9B0;
-  border-radius: 50%;
-  height: 50px;
-  position: absolute;
-  width: 50px;
-
   animation: pulse 1s ease infinite;
-
 }
