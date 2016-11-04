@@ -113,7 +113,6 @@
 }
 .clickMe:before {
   content: '';
-  background: #2C3E50;
   position: absolute;
   top: 6px;
   right: -5px;
