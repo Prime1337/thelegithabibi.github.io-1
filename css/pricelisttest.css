@@ -96,9 +96,9 @@
   background: rgba(52, 73, 94, 0.7);
 }
 .clickMe {
-  background: #fff;
+  background: #2C3E50;
   /* IE Fallback */
-  background: rgba(255, 255, 255, 0.8);
+  background: #2C3E50;
   position: absolute;
   top: 180px;
   left: -60px;
