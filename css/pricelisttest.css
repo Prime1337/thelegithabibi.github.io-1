@@ -145,16 +145,16 @@
 
 .containerbox {
 font-family: "Source Sans Pro", sans-serif;  
+color: white;
 margin: 0 auto;
 padding-bottom: 50px;
-overflow: auto;
-width: 960px;
+width: 192;
 }	
-  
+ 
 .plans {
-list-style: none;
-margin: 0%;
-padding: 20px 150px;
+	list-style: none;
+	margin: 5%;
+	padding: 10px 10px;
 }
 .plan {
 background: white;
@@ -164,35 +164,36 @@ border-radius: 6px;
 height: 60px;
 margin: 0px 10px;
 opacity: 0.8;
-padding: 4px 25px;
-width: 450px;
+padding: 4px 15px;
+width: 425px;
+
 }
 		
 .plan:hover,
 .plan:highlight {
     opacity: 1;
-}
+		}
 	
 .price {
 border-radius: 100%;
- cursor: default;
+cursor: default;
 display: block;
 float: left;
 height: 46px;
 line-height: 46px;
-margin: 8px 10px 0 0;
+margin: 0 0;
 text-align: center;
 width: 46px;
 }					
 .price-green {
   background-color: #e1f1d1;
   color: #52b327;
-}
+			}
 					
 .price-red {
   background-color: #f1e1d1;
   color: #b35227;
-}
+			}
 
 		
 .details {
@@ -207,7 +208,7 @@ padding: 0 10px;
 .plan-title {
 	font-size: 17px;
 	font-weight: normal;
-	margin: 2px 0 0;
+	margin: auto;
 	padding: 0;
 	text-transform: uppercase;
 }
@@ -227,7 +228,7 @@ border-radius: 4px;
 display: inline-block;
 float: right;
 font-size: 14px;
-margin: 15px 0;
+margin: 7px 0;
 padding: 7px 16px;
 }
 			
