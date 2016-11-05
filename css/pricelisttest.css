@@ -187,15 +187,17 @@ text-align: center;
 width: 46px;
 }					
 .price-green {
-  background-color: #e1f1d1;
-  color: #52b327;
+  background-color: #0F7864;
+  color: #FFFFFF;
 			}
 					
 .price-red {
   background-color: #f1e1d1;
   color: #b35227;
 			}
-
+.price-green:hover {
+background-color: #128F76;
+}
 		
 .details {
 color: #222;
