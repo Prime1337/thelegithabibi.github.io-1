@@ -225,5 +225,6 @@ padding: 0 10px;
 .cart {
    position: absolute;
    display: block;
-   margin-left: 70%;
+   margin-left: 60%;
+   margin-top: 5%;
 }
