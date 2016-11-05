@@ -14,6 +14,7 @@
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 .pricing .thumbnail {
+  font-family: 'Open Sans', sans-serif;
   background: #fff;
   /* IE Fall */
   background: rgba(255, 255, 255, 0.2);
@@ -29,6 +30,7 @@
   text-align: center;
 }
 .pricing .title {
+  font-family: 'Open Sans', sans-serif;
   cursor: pointer;
   background: #0f7864;
   margin: 40px 0 0;
@@ -42,6 +44,7 @@
   display: none;
 }
 .pricing .content .sub-title {
+  font-family: 'Open Sans', sans-serif;
   background: #eee;
   padding: 10px;
   color: #666;
@@ -50,6 +53,7 @@
   text-align: center;
 }
 .pricing .content ul {
+  font-family: 'Open Sans', sans-serif;
   list-style: none;
   background: #fff;
   margin: 0;
