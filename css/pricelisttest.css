@@ -147,9 +147,10 @@
 font-family: "Source Sans Pro", sans-serif;  
 color: white;
 margin: 0 auto;
-padding-bottom: 50px;
+padding: 1% 19%;
 width: 192;
 }	
+ 	
  
 .plans {
 	list-style: none;
