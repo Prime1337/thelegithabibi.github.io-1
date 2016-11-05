@@ -153,9 +153,10 @@ width: 960px;
 }	
   
 .plans {
-	list-style: none;
-	margin: 15%;
-	padding: 20px 40px;
+list-style: none;
+margin: 15%;
+padding: 20px 40px;
+float: left;
 }
 .plan {
 background: white;
