@@ -167,7 +167,8 @@ height: 60px;
 margin: 15%;
 opacity: 0.8;
 padding: 4px 25px;
-width: 450px;
+width: 400px;
+display: block;
 }
 		
 .plan:hover,
