@@ -226,5 +226,11 @@ padding: 0 10px;
    position: absolute;
    display: block;
    margin-left: 60%;
-   margin-top: 3%;
+   margin-top: 7%;
+}
+.dropdowncustom {
+  position: absolute;
+  display: block;
+  margin-left: 3%;
+  margin-top: 30%; 
 }
