@@ -155,10 +155,8 @@ width: 960px;
   
 .plans {
 list-style: none;
-margin: 15%;
+margin: 0;
 padding: 20px 40px;
-float: left;
-display: block;
 }
 .plan {
 background: white;
@@ -166,7 +164,7 @@ font-family: 'Source Sans Pro', sans-serif;
 border: 3px solid #e8e8e8;
 border-radius: 6px;
 height: 60px;
-margin: 10px 0;
+margin: 15%;
 opacity: 0.8;
 padding: 4px 25px;
 width: 450px;
