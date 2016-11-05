@@ -124,8 +124,40 @@
 						<p class="plan-title">Character Apps</p>
 						<p class="plan-description">Character Applications</p>
 						</div>
+						<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                <fieldset>
+                    <input type="hidden" name="cmd" value="_cart" />
+                    <input type="hidden" name="add" value="1" />
+                    <input type="hidden" name="business" value="example@minicartjs.com" />
+                    <input type="hidden" name="item_name" value="Pony" />
+                    <input type="hidden" name="quantity" value="1" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="hidden" name="return" value="http://www.minicartjs.com/?success" />
+                    <input type="hidden" name="cancel_return" value="http://www.minicartjs.com/?cancel" />
+                    <strong>Pony</strong>
+                    <ul>
+                        <li>
+                            <label>
+                                <select name="os0">
+                                    <option value="Stripes">Stripes $3.00</option>
+                                    <option value="Spots">Spots $4.00</option>
+                                    <option value="Psychedelic">Psychedelic $5.00</option>
+                                </select>
+                            </label>
+                            <input type="hidden" name="on0" value="Type" />
+                            <input type="hidden" name="option_select0" value="Stripes" />
+                            <input type="hidden" name="option_amount0" value="3.00" />
+                            <input type="hidden" name="option_select1" value="Spots" />
+                            <input type="hidden" name="option_amount1" value="4.00" />
+                            <input type="hidden" name="option_select2" value="Psychedelic" />
+                            <input type="hidden" name="option_amount2" value="5.00" />
+                        </li>
+                    </ul>
+                    <div class="cart"><button type="submit" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ADD TO CART</button></div>
+                </fieldset>
+            </form>
 			
-						<div class="cart"><button type="submit" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ADD TO CART</button></div>
+						
 				</div>
 			</div>
 		</div>
