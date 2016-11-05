@@ -79,6 +79,7 @@
   color: #e74c3c;
 }
 .pricing .content a {
+  font-family: 'Open Sans', sans-serif;
   display: block;
   background: #128f76;
   max-width: 80px;
@@ -157,6 +158,7 @@ list-style: none;
 margin: 15%;
 padding: 20px 40px;
 float: left;
+display: block;
 }
 .plan {
 background: white;
